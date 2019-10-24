@@ -62,103 +62,51 @@ body{
     background-color: black;  
     display: grid;
     grid-template-columns: 40% 25% 30%;
-    grid-template-rows: 100px 80% 80%;
-}
-#spannav{
-    text-indent: -9999px;
+    grid-template-rows: 100px 80% 80%;}
+#spannav{text-indent: -9999px;
     padding: 50%;
-    background: url(imgs/menu-icono.png) center center/ 100% no-repeat;
-}
-
+    background: url(imgs/menu-icono.png) center center/ 100% no-repeat;}
 h1{
-    grid-column: 1;
-    grid-row: 1;
-    text-indent: -9999px;
-    background-image: url(imgs/logo-chabtic.svg);
-    background-repeat: no-repeat;
-    background-size: 70%;
-    padding: 40%;
-    justify-self:center;
-    margin-top: 10px
-}
+    padding: 40%;margin-top: 10px;justify-self:center;text-indent: -9999px; background-image: url(imgs/logo-chabtic.svg); background-repeat: no-repeat; background-size: 70%;grid-column: 1; grid-row: 1;}
 h2{
-    font-family: 'Whitney-Bold';
-    font-size: 1.3em;
+    font-family: 'Whitney-Bold'; font-size: 1.3em;}
+p{font-family: 'Whitney-Medium'; font-size: 1em;line-height: 16px;padding: 0% 10% 0px 10%;text-align: center;}
+.timeline ul li div {font-family: 'Whitney-Medium';font-size: 1em;
 }
-p{
+h3, h4, time{
     font-family: 'Whitney-Medium';
-    font-size: 1em;
-    line-height: 16px;
-        padding: 0% 10% 0px 10%;
-    text-align: center;
-}
-h3, h4{
-    font-family: 'Whitney-Medium';
-    font-size: 1.2em;
-}
+    font-size: 1.2em;}
 #amarillolema, #fraseh, #recuadroh2{
     color: black;
     background-color: #F1B71C;
+    font-family: 'Whitney-Bold';
     padding-left: 1%;
      padding-right: 1%;
-    font-family: 'Whitney-Bold';
+    
 
 }
 #wrapper > header > figure{
    grid-column: 3/4;
     grid-row: 2;
 }
-#nav{
-    grid-column: 3;
-    grid-row: 1;
-    position: relative;
-}
-#nav #accordion{
-    display: none;
+#nav{grid-column: 3;grid-row: 1;position: relative;}
+#nav #accordion{ display: none;
 } 
-#nav #sub{
-    display: none;
+#nav #sub{display: none;
 }
-#nav h2{
-    background-size: 20%;
-    text-indent: -9999px;
+#nav h2{ background-size: 20%; text-indent: -9999px;
 }
-#lema{
-    grid-column: 1/3;
-    grid-row: 2;
-    color: white;
-    padding: 5%;
-    font-family: 'Whitney-Bold'; 
-        
-       
-}
+#lema{ grid-column: 1/3; grid-row: 2; color: white; padding: 5%;font-family: 'Whitney-Bold'; }
 
-#productos{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: auto;
-    padding-top: 5%;
+#productos{  width: 100%;  display: grid;  grid-template-columns: 100%; grid-template-rows: auto auto auto auto; grid-gap: auto; padding-top: 5%;}
 
-}
-
-#amarilloproductos{
-    color: white;
-    background-color: #F1B71C;
-    padding-left: 1%;
-     padding-right: 1%;
-}
+#amarilloproductos{  color: white;  background-color: #F1B71C; padding-left: 1%;  padding-right: 1%;}
 
 
 body { margin: 0; } 
 
-
-
-
 #carrusel{
-    background-image: url(imgs/panal-chabtic.png);
-}
+    background-image: url(imgs/panal-chabtic.png);}
 .movcarrusel {
   height: 30vh;
   width: 100%;
@@ -173,7 +121,16 @@ body { margin: 0; }
 #colab{
     background-image: url(imgs/quieres_colaborar_chabtic_nuestra_miel.jpg);
 }
-.colab {
+#vision{
+    background-image: url(imgs/imagenes_nosotros/vision_chabtic_nosotros.jpg);
+}
+#mision{
+    background-image: url(imgs/imagenes_nosotros/mision_chabtic_nosotros.jpg);
+}
+#contexto{
+    background-image: url(imgs/imagenes_nosotros/contexto_chabtic_nosotros.jpg);
+}
+.colab, .vision, .mision, .contexto {
   height: 30vh;
   width: 100%;
   color: white;
@@ -208,16 +165,18 @@ img{
 }
 
 button{
-    background-color:#000000fa;
-    width: 100px;
+    
+    width: 60px;
     height: 20px;
     border: 0px;
     border-radius: 24px;
     color: #FFFF;
+    background-color:#000000;
     justify-content: center;
     justify-self: center;
     margin: 2%;
     font-family: 'Whitney-Bold';
+    font-size: 1em;
 
     
 }
@@ -228,12 +187,12 @@ button{
      padding-right: 1%; 
 }
 #Ccerti{
-    padding-top: 25px;
+    padding-top: 25px;  padding: 15px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto;
     grid-gap: 3%;
-    padding: 15px;
+   
     background: url(imgs/abejas-diviction-chabtic.svg) left top / 15.5% repeat-x;
     padding-bottom: 5%;
 }
@@ -241,59 +200,48 @@ button{
     padding-top: 10%;
     grid-column: 1/3;
     grid-row: 1;
-    text-align: center;
-  
-    
-}
+    text-align: center;}
 #certimex{
     grid-column: 1;
     grid-row: 2;
-    justify-self:center;
-}
+    justify-self:center;}
 #certimex a{
     width: 100px;
     height:100px;
     display: block;
     text-indent: -9999px;
-     background:url(imgs/sello_certimex.jpg) center center / 50px no-repeat; 
-}
+     background:url(imgs/sello_certimex.jpg) center center / 50px no-repeat; }
 #sagarpa{
     grid-column: 2;
     grid-row: 2;
-    justify-self:center;
-}
+    justify-self:center;}
 #sagarpa a{
     width: 100px;
     height:100px;
     display: block;
-    text-indent: -9999px; background:url(imgs/sello_certimex.jpg) center center / 50px no-repeat; 
-}
+    text-indent: -9999px; background:url(imgs/sagarpa.png) center center / 50px no-repeat; }
 #ecocert{
     grid-column: 1;
     grid-row:3;
-    justify-self:center;
-}
+    justify-self:center;}
 #ecocert a{
     width: 100px;
     height:100px;
     display: block;
     text-indent: -9999px;
-     background:url(imgs/sello_certimex.jpg) center center / 50px no-repeat; 
-}
+    background:url(imgs/eu_organic_logo.jpg) center center / 50px no-repeat; }
 #usda{
     grid-column: 2;
     grid-row:3;
-    justify-self:center;
-}
+    justify-self:center;}
 #usda a{
     width: 100px;
     height:100px;
     display: block;
     text-indent: -9999px;
-     background:url(imgs/eu_organic_logo.jpg) center center / 50px no-repeat; 
-}
+     background:url(imgs/usda_organic.png) center center / 50px no-repeat; }
 
-#usda a, #ecocert a, #sagarpa a, #certimex a, #capeltic a, #compromiso img{
+#usda a, #ecocert a, #sagarpa a, #certimex a, #capeltic a, {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -301,7 +249,7 @@ button{
     transform: scale(1);
    
 }
-#usda a:hover, #ecocert a:hover, #sagarpa a:hover, #certimex a:hover, #capeltic a:hover, #compromiso img:hover{
+#usda a:hover, #ecocert a:hover, #sagarpa a:hover, #certimex a:hover, #capeltic a:hover,{
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -314,209 +262,153 @@ button{
     transition: 1s ease-in 0.1s;
 }
 
-#amarilloprocesos{
+#amarilloprocesos{padding-left: 1%;
+     padding-right: 1%;
    color: white;
     background-color: #F1B71C;
-    padding-left: 1%;
-     padding-right: 1%; 
-    
-}
+    }
 
 
 #recetas{
     width: 100%;
+    padding-top: 5%
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto auto;
     grid-gap: auto;
-    padding-top: 5%;
-}
-#recetas h2{
+    ;}
+#recetas h2{ text-align: center;
     grid-column: 1;
-    grid-row: 1;
-    text-align: center;
-   
-}
+    grid-row: 1;}
 
 #recetas figure{
      width: 100%;
     
 }
-#amarillorecetas{
-   color: white;
-    background-color: #F1B71C;
-    padding-left: 1%;
+#amarillorecetas{  padding-left: 1%;
      padding-right: 1%; 
-    
-}
+   color: white;
+    background-color: #F1B71C;}
 
 #procesos{
     height: 100%;
+      padding-top: 2%;
+    padding-bottom: 5%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around; background:url(imgs/textura_recicla.jpg);
-    padding-top: 2%;
-    padding-bottom: 5%;
-   
-}
+    justify-content: space-around; background:url(imgs/textura_recicla.jpg);}
 #procesos h2{
     flex-basis: 100%;
     text-align: center;
-    padding: 3%;
-}
+    padding: 3%;}
 #procesos article{
     flex-basis: 40%;
-    padding: 2%;
-}
+    padding: 2%;}
 #procesos p{
     padding-top: 5%; padding-bottom: 7%;}
 #procesos h3{
     text-align: center;
-    padding: 2%;
-}
+    padding: 2%;}
 
 #procesos img{
-    max-width: 70%;
-}
+    max-width: 70%;}
 #paso3 img{
-    max-width: 40%;
-}
+    max-width: 40%;}
 #paso3 figure{
-    margin-left: 30%;
-}
+    margin-left: 30%;}
 #procesos figure{
-    margin-left: 20%
-}
+    margin-left: 20%}
 
-#recetas p{
+#recetas p{margin: 5%;
     grid-column: 1;
-    grid-row: 2;
-    margin: 5%;
-}
+    grid-row: 2;}
 #recetas button{
     grid-column: 1;
-    grid-row: 4;
-}
+    grid-row: 4;}
 
 #colaboradores{
+    padding:5% 5% 5% 5%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto ;
     grid-gap: 3%;
-    padding:5% 5% 5% 5%;
-     background: url(imgs/abejas-diviction-chabtic.svg) left top / 15.5% repeat-x;
-}
+     background: url(imgs/abejas-diviction-chabtic.svg) left top / 15.5% repeat-x;}
 
 #colaboradores h2{
     padding-top: 25%;
-    margin-left: 10%;
-}
+    margin-left: 10%;}
 
 #capeltic{
     grid-column: 2;
     grid-row:1;
-    justify-self:center;
-}
+    justify-self:center;}
 #capeltic a{
      width: 130px;
     height:100px;
     display: block;
     text-indent: -9999px;
-     background:url(imgs/capeltic-logo.svg) center center / 80px no-repeat; 
-   
-}
-
-
+     background:url(imgs/capeltic-logo.svg) center center / 80px no-repeat;}
 section:nth-child(8) h2{
    display: none;
 }
-#amarillocolaboradores{
+#amarillocolaboradores{ padding-left: 1%;
+     padding-right: 1%;
    color: white;
-    background-color: #F1B71C;
-    padding-left: 1%;
-     padding-right: 1%; 
-    
-}
+    background-color: #F1B71C;}
 
 section:nth-child(8){
     display: grid;
     grid-auto-columns: auto;
     grid-template-rows:auto auto;
-    background-color:#F1B71C; 
-       
-}
+    background-color:#F1B71C; }
 
 section:nth-child(8) article:nth-child(2){
      grid-column: 1;
     grid-row: 1;
-     width: 100%;
-    
-}
-section:nth-child(8) article:nth-child(3){
+     width: 100%;}
+section:nth-child(8) article:nth-child(3){padding: 5%;
      grid-column: 1;
     grid-row: 2;
     justify-self: center;
 justify-content: center;
-    align-content: center;
-    padding: 5%;
-}
+    align-content: center;}
 section:nth-child(8) article:nth-child(3){
     text-align: center;
-    grid-column: 1/2;
-   }
+    grid-column: 1/2;}
 
-section:nth-child(8) article:nth-child(2) figure{
-     width: 100%;
-    
-}
+
 section:nth-child(8) article:nth-child(3) h3{
      text-align: center;
-    font-size: 2em;
-}
+    font-size: 2em;}
 
-section:nth-child(8) article:nth-child(3) p {
-    padding: 5%;
-    
-}
-#amarilloquieres{
-    background-color: black;
-    color:#F1B71C;
-    padding-left: 1%;
+section:nth-child(8) article:nth-child(3) p { padding: 5%;}
+#amarilloquieres{padding-left: 1%;
     padding-right: 1%;
-}
+    background-color: black;
+    color:#F1B71C;}
 
-footer{
+footer{padding: 1%;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(6, auto);
     background-color: black;
-    padding: 1%;
     text-align: center;
 }
-footer>div:first-child{
+footer>div:first-child{padding: 20px 0px 40px 0px;
     width: 100%;
-    height: 100%;
-   
-    
-}
+    height: 100%;}
 footer>div:first-child a{
     background: url(imgs/logo-chabtic.svg) center center/ 70px no-repeat;
     display: block;
     text-indent: -9999px;
-    padding: 20px 0px 40px 0px;
     justify-content: center;
-    justify-self:center;
-    
-}
-footer p{
-    color: white;
-}
+    justify-self:center;}
+footer p{color: white;}
 footer button{
     color: black;
-    background-color: white;
-}
-
-
+    background-color: white;}
+ 
+address{ color: white;}
 #wrapper { max-width: 1920px; min-width: 320px; margin: 0%; padding: 0%; position: relative; background-color: #fff;
 }
 
@@ -537,54 +429,43 @@ footer button{
     justify-self: center;
     text-align: center;
     margin-left: 27%
-   
-}
+   }
 #nav > span{
 font-size:2em;cursor:pointer;
 }
-
-#compromiso{
+#compromiso{padding-top: 5%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(7, auto);
-    text-align: center;
-    padding-top: 5%;
-}
-#amarillocompromiso{
+    text-align: center;}
+#amarillocompromiso, #equipochabtic span{padding:.5% .5%;
     background-color:#F1B71C;
     color: white;
-    padding:.7%;
 }
-
 #compromiso h3{
-    padding: 3%;
-    
+    padding: 1%;   
 }
 
 #compromiso p{
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 5%;
-    text-align: justify;
-}
+    padding-bottom: 1%;
+    text-align: justify;}
 #compromiso strong{
     color: saddlebrown;
 }
 #lineadetiempo{
     padding-top: 20%;
      background: url(imgs/abejas-diviction-chabtic.svg) left top / 15.5% repeat-x;
-   
-}
-#lineadetiempo span{
+   }
+#lineadetiempo span{padding-left: 1%;padding-right: 1%;
     background-color: #F1B71C;
-    color: white;
-    padding-left: 1%;padding-right: 1%;
+    color: white;  
 }
 #lineadetiempo h2{
     grid-column: 1/3;
     text-align: left;
     padding-left: 5%;
-}
 }
 #lineadetiempo article:nth-of-type(odd){
     grid-column: 1/2;
@@ -593,13 +474,11 @@ font-size:2em;cursor:pointer;
     grid-column: 2/3;
 }
 body {
- 
   overflow-x: hidden;
 } 
 time{
-        font-family: 'Whitney-Bold';
-    font-size: 1.3em;
-}
+   font-family: 'Whitney-Bold';
+    font-size: 1.3em;}
 
 .timeline ul {
   padding-bottom: 20px;
@@ -633,21 +512,15 @@ time{
   width: 100px;
   padding: 15px;
 }
-
-
-
 .timeline ul li:nth-child(odd) div {
   left: 22px;
   background-color: black; color: white;
+  
 }
-
-
-
 .timeline ul li:nth-child(even) div {
   left: -146px;
     background-color: #F1B71C;
-}
-
+   }
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
@@ -659,12 +532,9 @@ time {
   font-weight: bold;
   margin-bottom: 8px;
 }
-
-
 .timeline ul li::after {
   transition: background .5s ease-in-out;
 }
-
 .timeline ul li.in-view::after {
   background: #F1B71C;
 }
@@ -674,13 +544,12 @@ time {
   opacity: 0;
   transition: all .5s ease-in-out;
 }
-
 .timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
+  transform: translate3d(2px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-2px, 0, 0);
 }
 
 .timeline ul li.in-view div {
@@ -696,53 +565,39 @@ time {
     grid-template-columns: auto;
     grid-auto-columns: auto auto auto auto auto auto auto auto auto;
     text-align: center;
-  
-}
-
+  }
 #cantidadequipo{
     background: url(imgs/textura_recicla.jpg) center center / 100% no-repeat;
-    padding: 5%;
+    padding: 2%;
     
 }
 #cantidadequipo article:nth-child(2) p{
     text-indent: -9999px;
-    background: url(imgs/imagenes_nosotros/31_familias_productoras_equipo_chabtic.png) center center / 30% no-repeat;
-    padding: 10%;
+    background: url(imgs/imagenes_nosotros/31_familias_productoras_equipo_chabtic.png) center center / 10% no-repeat;
+    padding: 5%;
     
 }
 #cantidadequipo article:nth-child(3){
     padding-top: 2%;
 }
-
-
 #cantidadequipo article:nth-child(3) p:last-child{
     text-indent: -9999px;
-    background: url(imgs/imagenes_nosotros/3_trabajadores_equipo_chabtic.png) center center / 30% no-repeat;
-    padding: 10%;
-    
-}
-
-#equipochabtic h2{
-    text-align: center;
-}
-#equipochabtic span{
-    background-color: #F1B71C;
-    color: white;
-    padding: 1%;
-}
-#nombrequipo{
+    background: url(imgs/imagenes_nosotros/3_trabajadores_equipo_chabtic.png) center center / 10% no-repeat;
     padding: 5%;
-    
+    }
+#equipochabtic h2{
+    text-align: center;}
+
+#nombrequipo{
+    padding: 5%;  
 }
 #equipochabtic h4{
-    color:  #F1B71C;
-    
+    color:  #F1B71C;  
 }
 
 #equipochabtic article{
-padding: 10%;
-    
-}
+padding: 3%;
+    padding-bottom: 0%;   }
 
 #facebook{ 
     text-indent: -9999px;
@@ -775,41 +630,51 @@ padding: 3%;}
 }
 .ayuda{
     background-color: #F1B71C;
-    color:#ffffff;
-}
-
-
+    color:#ffffff;}
 
 @media screen and (min-width: 360px){
+    #productos figure {
+    margin-left: 28%;
+}
+    .colab {
+        height: 35vh;}
     .movcarrusel {
         height: 35vh;}
     #nav > span{
      font-size: 2em;   
     }
-  
-    
-   article:nth-of-type(even) .accordion, article:nth-of-type(even) .panel {
-    margin-left: 71px;
-}
     article{align-items: center;}
 
 }
 @media screen and (min-width: 640px){
+    .movcarrusel, .colab {
+    height: 42vh;
+}
+    .sidenav a {
+    font-size: 1.7em;
+}
+    #Ccerti h2 {
+        padding-top: 6%;}
+    #productos { padding-top: 2%;}
     header{
         grid-template-columns: 40% 25% 25%;
-        padding-bottom: 2%;
-    }
+        padding-bottom: 2%;}
     h2{
-        font-size: 2em;
-       
+        font-size: 2em;   
     }
-    h3, h4{
+    h3, h4, time{
         font-size: 1.5em;
     }
     p{
         font-size: 1.5em;
-        line-height: 18px;
+        line-height: 18px; padding: 2% 8%;
     } 
+    .timeline ul li div {
+    font-size: 1.5em;
+}
+    section:nth-child(8) article:nth-child(3) {
+    padding: 2%;
+}
     
     #nav > span{
      font-size:3em;   
@@ -819,23 +684,22 @@ padding: 3%;}
     #productos p{
         text-align: center}
     button{
-  
-    width: 160px;
-    height: 40px;
+      width: 110px;
+    height: 30px;
         font-size: 1.5em;
 }
     h1{background-size: 50%;}
     
     #sagarpa a {
-    background: url(imgs/sello_certimex.jpg) center center / 70px no-repeat;}
+    background: url(imgs/sagarpa.png) center center / 70px no-repeat;}
     #usda a {
-    background: url(imgs/sello_certimex.jpg) center center / 70px no-repeat;}
+    background: url(imgs/usda_organic.png) center center / 70px no-repeat;}
     #ecocert a {
-    background: url(imgs/sello_certimex.jpg) center center / 70px no-repeat;}
+    background: url(imgs/eu_organic_logo.jpg) center center / 70px no-repeat;}
     #certimex a {
     background: url(imgs/sello_certimex.jpg) center center / 70px no-repeat;}
     
-
+    #colaboradores{ padding-bottom: 0%;}
     #colaboradores h2 {
     padding-top: 12%;
     margin-left: 10%;
@@ -845,22 +709,8 @@ padding: 3%;}
         padding-left: 40px;
     padding-right: 40px
 }
-
-    
- 
     section:nth-child(8) article:nth-child(3) h3{
     font-size: 3em;
-}
-    article:nth-of-type(even) .accordion, article:nth-of-type(even) .panel  {
-    margin-left: 127px;
-}
-    .accordion{
-        font-size: 3em;
-    }
-    .accordion:after {
-    margin-left: 30px;
-    margin-right: 50px;
- 
 }
     .productos{display: block;}
     .certificados{display: block; justify-items: center;}
@@ -903,45 +753,74 @@ padding: 3%;}
     background: url(imgs/facebook.svg) center center/6% no-repeat;
 } 
      #instagram {
-    background: url(imgs/instagram.svg) center center/6% no-repeat;
+    background: url(imgs/instagram.svg) center center/8% no-repeat;
 } 
+    footer>div:first-child a {
+    background: url(imgs/logo-chabtic.svg) center center/ 80px no-repeat;
+    padding: 30px 0px 40px 0px;
+}
+    section:nth-child(8) article:nth-child(3) p {
+    padding: 2% 5%;
+}
+   
+    .timeline ul li:nth-child(even) div {
+    left: -270px;
+}
+    .timeline ul li div {
+    width: 220px;
+}
 }
 
 @media screen and (min-width: 768px){
    h2{
-        font-size: 3em;
+        font-size: 2.7em;
        
     }
-    h3, h4{
+    h3, h4, time{
         font-size: 2.2em;
     }
     p{
-        font-size: 2.2em;
+        font-size: 1.7em;
         line-height: 25px;
     } 
+    .timeline ul li.in-view div{
+    font-size: 1.5em;
+}
+    
+    .movcarrusel, .colab{
+        height: 45vh;
+    }
   section:nth-child(8) article:nth-child(3) h3{
     font-size: 3em;
 }
     
+    #productos img {
+    max-width: 42%;
+}
+    #productos figure {
+    margin-left: 36%;
+}
     #nav > span{
-     font-size: 4.5em;   
+     font-size: 4em;   
     }
-    
-    
+
    button{
-  
-    width: 150px;
-    height: 40px;
-       font-size: 2.2em;
+    width: 120px;
+    height: 30px;
+    font-size: 1.7em;
 } 
     #Ccerti{
-    padding-top: 20%;
+    padding-top: 10%;padding-bottom: 2%;
     grid-template-columns: 40% 25% 25%;
     grid-template-rows: auto auto;
   
 }
+    #productos p {
+    padding: 0px 5% 0px 5%;
+        margin: 2%;
+}
      #wrapper > header > figure {
-    padding-top: 50%;
+    padding-top: 30%;
 }
     #lema{
         padding-top: 20%;
@@ -961,7 +840,7 @@ padding: 3%;}
     
     #procesos p{
     flex-basis: 100%;
-    text-align: center;}
+    text-align: center; padding: 0%;}
     #certimex{
     grid-column: 2;
     grid-row: 1;
@@ -980,115 +859,92 @@ padding: 3%;}
 }
     
     #certimex a {
-    background: url(imgs/sello_certimex.jpg) center center / 115px no-repeat;
-    padding: 30px;
+    background: url(imgs/sello_certimex.jpg) center center / 85px no-repeat;
+    padding: 15px;
 }
 
     #sagarpa a{
-        background: url(imgs/sello_certimex.jpg) center center / 115px no-repeat;
-      padding: 30px;  
+        background: url(imgs/sagarpa.png) center center / 85px no-repeat;
+      padding: 15px;  
     }
     #ecocert a {
-        background: url(imgs/sello_certimex.jpg) center center / 115px no-repeat;
-        padding: 30px;
+        background: url(imgs/eu_organic_logo.jpg) center center / 85px no-repeat;
+        padding: 15px;
     }
     #usda a {
-    background: url(imgs/eu_organic_logo.jpg) center center / 115px no-repeat;
-     padding: 30px;   
+    background: url(imgs/usda_organic.png) center center / 85px no-repeat;
+     padding: 15px;   
 }
-    #Ccerti {
-    padding-bottom: 10%;
-    }
     
-      .accordion{
-        font-size: 3.5em;
+    #recetas p{
+        margin: 2%;
+        padding: 0% 7% 0% 7%;
     }
-    .accordion:after {
-    margin-left: 30px;
-    margin-right: 50px;
- 
-}
-    article:nth-of-type(even) .accordion, article:nth-of-type(even) .panel  {
-    margin-left: 150px;
-}
+    #recetas img{
+        max-width: 75%;
+    }
+    #colaboradores h2 {
+        padding-top: 7%;}
     
     footer {
-        height: 408px;
+        height: 350px;
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 27% 35% 15% 0% 0%;
+    grid-template-rows: auto auto auto auto auto;
     background-color: black;
-    padding: 40px;
+    padding: 60px;
     text-align: center;
-    grid-template-areas: 
-        '. fp1'
-        'logo fb1'
-        '. fp2'
-        '. fp3'
-        'fad1 fad1'
-        '. .'
         
 }
-    body > footer > div:nth-child(1){
-        grid-area: logo;
+    footer>div:first-child a {
+    background: url(imgs/logo-chabtic.svg) center center/ 120px no-repeat;
+    padding: 80px 0px 40px 0px;
+}
+    footer div:first-child{ grid-column: 1; grid-row: 1/4;}
+    footer p:nth-child(2){ grid-column: 2; grid-row: 1;}
+footer button{ grid-column: 2; grid-row: 2;}
+ footer p:nth-child(4){ grid-column: 2; grid-row: 3;}
+    footer div:nth-child(5){display: grid; grid-template-columns: 50% 50%; grid-template-rows: auto;}
+     footer div:nth-child(5){ grid-column: 2; grid-row: 4;}
+     address{ grid-column: 1/4; grid-row: 5; margin-top: 0%;}
+}
     }
-    body > footer > p:nth-child(2){
-        grid-area: fp1;
-    }
-    body > footer > button{
-        grid-area: fb1;
-    }
-    body > footer > p:nth-child(4){
-        grid-area: fp2;
-    }
-    body > footer > div:nth-child(5){
-        grid-area: fp3;
-    }
-    body > footer > address{
-        grid-area: fad1;
+   address{
+        margin-top: 15%;
     }
       #facebook {
-    background: url(imgs/facebook.svg) center center/10% no-repeat;
+    background: url(imgs/facebook.svg) center center/15% no-repeat;
 } 
      #instagram {
-    background: url(imgs/instagram.svg) center center/12% no-repeat;
+    background: url(imgs/instagram.svg) center center/17% no-repeat;
 } 
+    
+  
     
 }
 
 @media screen and (min-width: 960px){
-    .movcarrusel {
-        height: 40vh;}
-      h2{
-        font-size: 3.2em;
+    header{ grid-template-columns: 40% 25% 20%; padding-bottom: 0%;}
+    
+    .movcarrusel, .colab {
+        height: 50vh;}
+    
+      h2, .sidenav a, time{
+        font-size: 2.7em;
        
     }
-    p, h3, h4{
-        font-size: 2.2em;
-    }
+    #mySidenav > a:nth-child(2) {background-size: 60%;}
+    
+    .sidenav .closebtn { font-size: 4em;}
+   
   section:nth-child(8) article:nth-child(3) h3{
-    font-size: 3.2em;
+    font-size: 2.7em;
 }
     
     #nav > span{
-     font-size: 5em;   
+     font-size: 4em;   
     }
-  
-
-button{
-    font-size: 2.2em;
-    }
-    .accordion{
-        font-size: 4em;
-    }
-    .accordion:after {
-    margin-left: 60px;
-    margin-right: 80px;
- 
-}
-    article:nth-of-type(even) .accordion, article:nth-of-type(even) .panel {
-    margin-left: 190px;
-}
+    #Ccerti, #colaboradores{ background: url(imgs/abejas-diviction-chabtic.svg) left top / 10.5% repeat-x;}
     footer>div:first-child a {
     background: url(imgs/logo-chabtic.svg) center center/ 130px no-repeat;
     display: block;
@@ -1097,63 +953,97 @@ button{
     justify-content: center;
     justify-self: center;
 }
+    #lineadetiempo {
+    padding-top: 10%;
+    background: url(imgs/abejas-diviction-chabtic.svg) left top / 10.5% repeat-x;
+}
+    .timeline ul li div {
+    width: 320px;
+}
+    .timeline ul li:nth-child(even) div {
+    left: -369px;
+}
+    #nombrequipo {
+    padding: 0% 5%;
+}
+    body > footer > address {
+    grid-area: fad1;
+    margin-top: 11%;
+    font-size: 1.2em;
+}
 }
 
 @media screen and (min-width: 1024px){
+    h1 {
+    background-size: 40%;
+}
+    h1 {
+    padding: 30%;
+}
+    #productos figure {
+    margin-left: 36%;
+    margin-top: 2%;
+}
  
 #productos {
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto;
    align-items: center;padding-bottom: 2%; padding-top: 2%;
     
 }
+    #productos figure{ grid-column: 1; grid-row: 1/4;margin-left: 30%;}
+    #productos h2{grid-column: 2; grid-row: 1;}
+    #productos img {
+    max-width: 65%;
+}
+    #productos p{
+        grid-column: 2; grid-row: 2;
+    }
+    #productos button{
+        grid-column: 2; grid-row: 3;
+    }
     #recetas {
+        display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto;
-   align-items: center;padding-bottom: 0%; padding-top: 0%;
+    grid-template-rows: auto auto auto;
+   align-items: center;padding-bottom: 0%; padding: 5%;
 }
     #recetas button {
-    grid-column: 2;
-    grid-row: 2;
+    grid-column: 1;
+    grid-row: 3;
 }
-    
+       #recetas p {
+    padding-bottom: 3%; padding-top: 3%;
+}
+    #recetas figure{
+       grid-column: 2;
+    grid-row: 1/4;  
+    }
+    #recetas img {
+    max-width: 90%;
+}
     #nav > span{
      display: none;
     }
    
-    
-    #lema{
-        padding-top: 25%;
-    }
      
      #capeltic a {
-    background: url(imgs/capeltic-logo.svg) center center / 230px no-repeat;
-             padding-top: 20%;
+    background: url(imgs/capeltic-logo.svg) center center / 160px no-repeat;
+             padding-top: 10%;
         padding-left: 55px;
     padding-right: 55px
 }
     
-    
-        .accordion{
-        font-size: 4em;
-    }
-    .accordion:after {
-    margin-left: 80px;
-    margin-right: 110px;
  
-}
-    article:nth-of-type(even) .accordion, article:nth-of-type(even) .panel {
-    margin-left: 250px;
-}
     footer {
         
-        padding: 45px;}
+        padding-bottom: 75px;}
     #navdesktop>ul{
     display: grid;
     grid-template-columns: repeat(5, auto);
     padding: 10%;
     list-style: none;
-        font-size: 2.5em;
+        font-size: 2em;
         grid-gap: 26px;
 }
     #navdesktop{
@@ -1185,12 +1075,65 @@ button{
     transition: all 0.5s ease-in 0.25s;
 }
 #navdesktop ul li:hover span{transform: rotate(180deg);}
-}
 
-}
 
+       #facebook {
+    background: url(imgs/facebook.svg) center center/5% no-repeat;
+} 
+     #instagram {
+    background: url(imgs/instagram.svg) center center/7% no-repeat;
+} 
+#compromiso article{ display: 
+grid;
+    grid-auto-columns: 50% 50%; grid-template-rows: auto auto;}
+#compromiso{ padding: 3% 0%;}
+#compromiso h2{ padding: 3%;}
+#compromiso article h3{ grid-column: 1; grid-row: 1;
+}
+#compromiso article p{ grid-column: 1; grid-row: 2;
+}
+#compromiso article div{ grid-column: 2; grid-row: 1/4;
+}
+#compromiso article:nth-child(3) h3{ grid-column: 2; grid-row: 1;
+}
+#compromiso article:nth-child(3) p{ grid-column: 2; grid-row: 2;
+}
+#compromiso article:nth-child(3) div{ grid-column: 1; grid-row: 1/4;
+}
+.vision, .mision, .contexto {
+    height: 30vh;}
+#equipochabtic #cantidadequipo{display: grid; grid-template-columns: 40% 40%; grid-template-rows: auto auto;}
+
+
+#cantidadequipo h2{ grid-column: 1; grid-row: 1/3;}
+#cantidadequipo article{ display: grid; grid-template-columns: 50% 50%; grid-template-rows: auto;}
+
+
+#cantidadequipo article:nth-child(2) { grid-column:2 ; grid-row: 1;}
+#cantidadequipo article:nth-child(2) h3,  #cantidadequipo article:nth-child(3) h3{ grid-column:2 ; grid-row: 1;}
+    #cantidadequipo article:nth-child(3) p:nth-child(2) { grid-column:2 ; grid-row: 2;}
+    #cantidadequipo article:nth-child(2) p{background-size: 50%;
+    padding: 15%}
+     #cantidadequipo article:nth-child(3) p:nth-child(3){background-size: 50%;
+    padding: 15%; grid-row: 1/3;}
+#cantidadequipo article:nth-child(3) { grid-column:2 ; grid-row: 2;}
+    
+    #nombrequipo{ display: grid; grid-template-columns: 50% 50%; grid-template-rows: auto auto;}
+    #nombrequipo article{
+        display: flex;
+        flex-flow: column;}
+    
+     #nombrequipo h3{ order: 2;}
+    #nombrequipo figure{ order: 1;}
+    #nombrequipo h4{ order: 3;}
+    #nombrequipo p{ order: 4;}
+}
 @media screen and (min-width: 1280px){
-    h4, #nombrequipo h3{ font-size: 4em;}
+    
+    
+    h2, {font-size:  3em;}
+    h4, #nombrequipo h3, time{ font-size: 2em;}
+    p, button, timeline ul li.in-view div { font-size: 2em;}
  #nav ul {
         display: none;
     } 
@@ -1199,32 +1142,27 @@ button{
     display: none;
     }
     
-   
-     button{
-         width: 220px;
-    height: 80px;
-} 
  
-     #capeltic a {
-    background: url(imgs/capeltic-logo.svg) center center / 260px no-repeat;
-        padding-left: 65px;
+     #capeltic a {padding-left: 65px;
     padding-right: 65px
+    background: url(imgs/capeltic-logo.svg) center center / 260px no-repeat;
+        
 }
-    #certimex a {
+    #certimex a {padding: 45px;
     background: url(imgs/sello_certimex.jpg) center center / 140px no-repeat;
-    padding: 45px;
+    
 }
-    #sagarpa a{
-        background: url(imgs/sello_certimex.jpg) center center / 140px no-repeat;
-    padding: 45px;  
+    #sagarpa a{padding: 45px;
+        background: url(imgs/sagarpa.png) center center / 140px no-repeat;
+      
     }
-    #ecocert a {
-        background: url(imgs/sello_certimex.jpg) center center / 140px no-repeat;
-    padding: 45px;
+    #ecocert a {padding: 45px;
+        background: url(imgs/eu_organic_logo.jpg) center center / 140px no-repeat;
+    
     }
-    #usda a {
-    background: url(imgs/eu_organic_logo.jpg) center center / 140px no-repeat;
-    padding: 45px;   
+    #usda a {padding: 45px;
+    background: url(imgs/usda_organic.png) center center / 140px no-repeat;
+       
 }
     #compromiso article{
     display: grid;
@@ -1278,9 +1216,46 @@ button{
         grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto; 
     }
-    
+       #facebook {
+    background: url(imgs/facebook.svg) center center/30% no-repeat;
+} 
+     #instagram {
+    background: url(imgs/instagram.svg) center center/35% no-repeat;
+} 
+  #amarillocompromiso, #equipochabtic span {
+    background-color: #F1B71C;
+    color: white;
+    padding: .2% .2%;
+}  
+    .timeline ul li div {
+    width: 400px;
+}
+    .timeline ul li:nth-child(even) div {
+    left: -450px;
 }
     
+    footer {
+    grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto auto ;
+}
+    footer div:first-child{ grid-column: 1; grid-row: 1/4;}
+    footer p:nth-child(2){ grid-column: 2; grid-row: 1;}
+footer button{ grid-column: 2; grid-row: 2;}
+ footer p:nth-child(4){ grid-column: 3; grid-row: 1;}
+    footer div:nth-child(5){display: grid; grid-template-columns: 50% 50%; grid-template-rows: auto;}
+     footer div:nth-child(5){ grid-column: 3; grid-row: 2;}
+     address{ grid-column: 1/4; grid-row: 3; margin-top: 0%;}
+    header {
+    grid-template-columns: 40% 25% 16%;
+    padding-bottom: 2%;
+}
+    #lema {
+    padding-top: 15%;
+}
+    .contexto {
+    height: 30vh;
+}
+}
 @media screen and (min-width: 1920px){
     .movcarrusel {
         height: 55vh;}
@@ -1292,62 +1267,63 @@ button{
         font-size: 4.5em;
        
     }
-    p, h3, address{
+    p, button,  h3, address {
         font-size: 3em;
     }
+    .timeline ul li.in-view div {
+    font-size: 2.7em;
+}
     p{
         line-height: 30px;
     }
-    #navdesktop>ul{
+    #navdesktop>ul, time{
     font-size: 3em;
 }
-  section:nth-child(8) article:nth-child(3)    h4, #nombrequipo h3{ font-size: 4em;}
+  section:nth-child(8) article:nth-child(3)    h3, #nombrequipo h3{ font-size: 4em;}
  #nav ul {
         display: none;
     } 
-
+h1 {
+    background-size: 40%;
+}
 #spannav, #mySidenav {
     display: none;
     }
     
    
      button{
-         width: 220px;
-    height: 80px;
+         width: 175px;
+    height: 50px;
 } 
-    
-    #lema{
-        padding-top: 35%;
-    }
-    
-    button{
-} 
+ 
     #certimex a {
-    background: url(imgs/sello_certimex.jpg) center center / 200px no-repeat;
+    background: url(imgs/sello_certimex.jpg) center center / 140px no-repeat;
     padding: 86px;
 }
  #sagarpa a{
-        background: url(imgs/sello_certimex.jpg) center center / 200px no-repeat;
+        background: url(imgs/sagarpa.png) center center / 140px no-repeat;
     padding: 86px;  
     }
     #ecocert a {
-        background: url(imgs/sello_certimex.jpg) center center / 200px no-repeat;
+        background: url(imgs/eu_organic_logo.jpg) center center / 140px no-repeat;
     padding: 86px;
     }
     #usda a {
-    background: url(imgs/eu_organic_logo.jpg) center center / 200px no-repeat;
+    background: url(imgs/usda_organic.png) center center / 140px no-repeat;
     padding: 86px;   
 }
 
     #capeltic a {
-    background: url(imgs/capeltic-logo.svg) center center / 360px no-repeat;
+    background: url(imgs/capeltic-logo.svg) center center / 250px no-repeat;
     padding-left: 120px;
     padding-right: 121px;
 }
-  
-     
+    #colaboradores{ padding-bottom: 2%;}
+     #colaboradores h2 {
+    padding-top: 3%;
+}
     footer {
-        
+            height: 620px;
     display: grid;
     grid-template-columns: 30% 35% 35%;
     grid-template-rows: repeat(3, auto);
@@ -1357,26 +1333,28 @@ button{
     grid-template-areas: 
         '.adaaw fp1 fp2'
         'logo fb1 fp3'
-        'fad1 fad1 fad1'
+        'fad1 fad1 fad1';
         
 }
-    body > footer > div:nth-child(1){
-        grid-area: logo;
-    }
-    body > footer > p:nth-child(2){
-        grid-area: fp1;
-    }
-    body > footer > button{
-        grid-area: fb1;
-    }
-    body > footer > p:nth-child(4){
-        grid-area: fp2;
-    }
-    body > footer > div:nth-child(5){
-        grid-area: fp3;
-    }
-    body > footer > address{
-        grid-area: fad1;
-    }
-    
+  
+    footer>div:first-child a {
+    background: url(imgs/logo-chabtic.svg) center center/ 200px no-repeat;
+    display: block;
+    padding: 146px 0px 40px 0px;
+}
+        .timeline ul li div {
+    width: 800px;
+}
+    .timeline ul li:nth-child(even) div {
+    left: -850px;
+}
+    .timeline ul li::after {
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;
+  
+}
+    .timeline ul li {
+    width: 5px;
+}
 }

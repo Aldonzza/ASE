@@ -140,7 +140,6 @@ h3, h4{
     grid-template-rows: auto auto auto auto;
     grid-gap: auto;
     padding-top: 5%;
-    padding-bottom: 10%;
 
 }
 
@@ -171,9 +170,29 @@ body { margin: 0; }
   flex-direction: column;
   justify-content: center;
 }
+#colab{
+    background-image: url(imgs/quieres_colaborar_chabtic_nuestra_miel.jpg);
+}
+.colab {
+  height: 30vh;
+  width: 100%;
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 img{
     max-width: 100%;
    
+}
+#productos figure{
+    margin-left: 30%;
+}
+#productos img{
+    max-width: 60%;
 }
 #productos h2{
     grid-column: 1;
@@ -216,7 +235,7 @@ button{
     grid-gap: 3%;
     padding: 15px;
     background: url(imgs/abejas-diviction-chabtic.svg) left top / 15.5% repeat-x;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 }
 #Ccerti h2{
     padding-top: 10%;
@@ -310,8 +329,7 @@ button{
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto auto;
     grid-gap: auto;
-    padding-bottom: 15%;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 #recetas h2{
     grid-column: 1;
@@ -337,8 +355,8 @@ button{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around; background:url(imgs/textura_recicla.jpg);
-    padding-top: 10%;
-    padding-bottom: 15%;
+    padding-top: 2%;
+    padding-bottom: 5%;
    
 }
 #procesos h2{
@@ -357,10 +375,18 @@ button{
     padding: 2%;
 }
 
-#paso3 img{
-    height: 150px;
+#procesos img{
+    max-width: 70%;
 }
-
+#paso3 img{
+    max-width: 40%;
+}
+#paso3 figure{
+    margin-left: 30%;
+}
+#procesos figure{
+    margin-left: 20%
+}
 
 #recetas p{
     grid-column: 1;
@@ -402,7 +428,7 @@ button{
 
 
 section:nth-child(8) h2{
-    text-indent: -9999px;
+   display: none;
 }
 #amarillocolaboradores{
    color: white;
@@ -497,7 +523,8 @@ footer button{
     #nav{padding-left: 20%;display: block;color: white; right: 50px;position: absolute;}
      #nav ul { display: none; }
 .sidenav {height: 100%;width: 0;position: fixed;z-index: 1;top: 0; left: 0; background-color:black;  color: white;overflow-x: hidden;transition: 0.5s;padding-top: 60px;}
-.sidenav a { margin-bottom: 2%; padding: 8px 8px 8px 11px; text-decoration: none; font-family: 'Whitney-Bold'; font-size: 2em; color: white; display: block; transition: 0.3s;}
+.sidenav a { margin-bottom: 2%; padding: 8px 8px 8px 11px; text-decoration: none; font-family: 'Whitney-Bold';     font-size: 1.5em;
+    MARGIN-LEFT: 10%; color: white; display: block; transition: 0.3s;}
     .sidenav a:hover {color: #F1B71C;}
     .sidenav .closebtn { position: absolute; top: 0; right: 25px; color: white; ; margin-left: 50px; padding: 6%; font-family: 'helvetica'; font-size: 2.5em;  background: url(imgs/menu-icono.png) center center/ 100% no-repeat;}
 
